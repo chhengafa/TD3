@@ -1,0 +1,117 @@
+body{
+    margin: 0px;
+}
+.home_container{
+    position: relative;
+    height: 100%;
+}
+.sidebar{
+    width: 22%;
+    height: 100%;
+    font-family: Oswald;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    padding-top: 20px;
+}
+.sidebar img {
+    width: 80px;
+    border-radius: 100%;
+    border: 2px solid #e5e5e5;
+}
+.sidebar h4{
+    color: #d1cfcf;
+}
+#nav {
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+}
+#nav li {
+    position: relative;
+    padding: 10px;
+    border-bottom: 1px solid rgb(237, 236, 236);
+    border-top: 1px solid rgb(237, 236, 236);
+    margin-top: -1px;
+}
+#nav li.active{
+    background-color: #f5f3f3;
+}
+li.active a:after{
+    background-color: #f4c052;
+    display: block;
+    position: absolute;
+    content: ' ';
+    right: 0;
+    bottom: 0;
+    width: 3px;
+    height: 100%;
+}
+#nav a{
+    color: black;
+    text-decoration: none;
+}
+.container{
+    background-image: url('../image/home_page_bg_2.jpeg');
+    height: 100vh;
+    border-left:10px solid rgb(233, 232, 232);
+    margin-left: 22%;
+    color: #fff;
+    position: relative;
+}
+.container .container_text{
+    width: 60%;
+    position: absolute;
+    right: 0;
+}
+.container .user_name{
+    font-size: 60px;
+    font-family: Oswald;
+    margin: 0px;
+    padding-top: 150px;
+}
+.container .container_text .user_role{
+    margin-left: 10%;
+    font-family: Oswald;
+    color: rgb(245, 245, 245);
+    opacity: 0.2;
+}
+.container .underline{
+    display:inline-block;
+    font-family: Oswald;
+    border-bottom:2.5px solid #f4c052;
+    padding-bottom:1px;
+}
+.container_mask{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.619);
+}
+.container2{
+    border-left:10px solid rgb(233, 232, 232);
+    height: 100%;
+    margin-left: 22%;
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+.container2 .underline{
+    display:inline-block;
+    font-family: Oswald;
+    border-bottom:2.5px solid #f4c052;
+    padding-bottom:1px;
+}
+.aboutme{
+    color: white;
+    padding-left: 13%;
+    font-family: Oswald;
+    background-color: #f4c052;
+    margin-right: 65%;
+}
+.title{
+    font-family: Oswald;
+    margin-left: 13%;
+}
+.p{
+    font-size: larger;
+    font-family: serif;
+    margin-right: 20%;
+    margin-left: 13%;
+}
